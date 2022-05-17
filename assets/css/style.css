@@ -77,13 +77,15 @@ header {
 }
 
 #hero { 
-    background-image: url("../images/Arm-stretch.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-image: url("../images/Arm-stretch.jpg");
+    background-color: #cccccc; 
     width: 100%;
-    height: 300px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 300px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    
+
 }
 
 #cover-text {
@@ -124,3 +126,14 @@ header {
     }
 }
 
+/* Head line */
+
+#head-line-container {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 150%; 
+    background-color: rgb(175, 179, 156, 0.9);
+}
