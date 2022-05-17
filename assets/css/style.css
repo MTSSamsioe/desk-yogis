@@ -12,9 +12,54 @@ body {
     color:#363939;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Headings and nav menue */
+
+
 h1, h2 {
     font-family:Lilita One, sans-serif ;
     font-weight: 400;
     color: #202020;
+    letter-spacing: 3px;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+    margin-left: 35px;
+    letter-spacing: 7px;
+    text-decoration: none;
+    line-height: 90px;
+    
+}
+
+#navigation {
+   
+    line-height: 90px;
+
+}
+
+#navigation li {
+    margin-right: 30px;
+    
+    list-style-type: none;
+    float: right;
+    
+    
+
+
+}
+
+#navigation a {
+    font-size: 165%;
+    color: inherit;
+    
+    
+}
+
+#navigation a:hover, .active {
+    border-bottom: 2px solid #363939 ;
 }
