@@ -6,3 +6,15 @@
     border: none;
 }
 
+body {
+    font-family: Arvo, sans-serif;
+    font-weight: 400;
+    color:#363939;
+}
+
+/* Headings and nav menue */
+h1, h2 {
+    font-family:Lilita One, sans-serif ;
+    font-weight: 400;
+    color: #202020;
+}
