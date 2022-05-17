@@ -94,11 +94,33 @@ header {
     left:35%;
     text-align: center;
     justify-content: center;
-    font-size: 150%;
+    font-size: 200%;
     height: 50px;
     width: auto;
+
+    /* Animates cover text on page load */
+    animation-name: cover-show;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
     
     
 }
 
+
+
+
+
+/* Createsm visibility for cover-text */
+
+@keyframes cover-show {
+    from {
+        opacity:  0 ;
+        transform: scale(0);
+     }
+  
+    to {
+        opacity:  1 ;
+        transform: scale(1);
+    }
+}
 
