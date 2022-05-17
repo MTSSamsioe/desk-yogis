@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    
 }
 
 body {
@@ -26,6 +27,11 @@ h1, h2 {
     letter-spacing: 3px;
 }
 
+header {
+    width: 100%;
+    height: 100px;
+}
+
 #logo {
     float: left;
     font-size: 250%;
@@ -37,14 +43,13 @@ h1, h2 {
 }
 
 #navigation {
-   
+    
     line-height: 90px;
 
 }
 
 #navigation li {
     margin-right: 30px;
-    
     list-style-type: none;
     float: right;
     
@@ -63,3 +68,37 @@ h1, h2 {
 #navigation a:hover, .active {
     border-bottom: 2px solid #363939 ;
 }
+
+/* hero images and cover text*/
+#hero-container {
+    width: 100%;
+    height:300px;
+    position: relative;
+}
+
+#hero { 
+    background-image: url("../images/Arm-stretch.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    width: 100%;
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+#cover-text {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+    bottom: 50%;
+    left:35%;
+    text-align: center;
+    justify-content: center;
+    font-size: 150%;
+    height: 50px;
+    width: auto;
+    
+    
+}
+
+
