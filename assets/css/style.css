@@ -92,22 +92,26 @@ header {
 
 #cover-text {
     position: absolute;
-    background-color: rgba(255, 255, 255, 0.7);
     
-    bottom: 50%;
-    left:35%;
-    text-align: center;
     justify-content: center;
+    bottom: 40%;
+    left:45%;
+    line-height: 100px;
     font-size: 200%;
-    height: 50px;
+    height: 100px;
+    border-radius: 25px;
     width: auto;
 
     /* Animates cover text on page load */
     animation-name: cover-show;
-    animation-duration: 5s;
+    animation-duration: 15s;
     animation-fill-mode: forwards;
     
     
+}
+
+#cover-text h2 {
+    font-size: 50%;
 }
 
 
@@ -120,11 +124,14 @@ header {
     from {
         opacity:  0 ;
         transform: scale(0);
+        left: 0%;
      }
   
     to {
         opacity:  1 ;
         transform: scale(1);
+        left: 50%;
+        
     }
 }
 
@@ -136,19 +143,21 @@ header {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 150%; 
-    background-color: rgb(175, 179, 156, 0.9);
+    font-size: 100%; 
+    
+    background-image: linear-gradient(to right, rgb(175, 179, 156, 0.7), rgba(226, 228, 227, 0.7));
 }
 
 /* Article section with side picture*/
 
 #text-outer {
     width: 100%;
-    height: 800px;
-    
+    height: 900px;
+    background-color: rgba(255, 240, 212, 0.7);
 }
 
 #text-container {
+    background-color: #fff;
     float: left;
     width: 64%;
     height: auto;
@@ -159,22 +168,26 @@ header {
    
     
     box-sizing: border-box;
+    border: 2px solid #202020;
+    
+    border-radius: 15px 0 0 15px;
+    box-shadow: 5px 5px #363939;
 }
 
 #text-container div {
-    border: 2px solid #202020;
+    
     padding: 30px;
     
     line-height: 25px;  
 }
 
 #text-top {
-    height: 236px;
+    height: 238px;
     border-radius: 15px 0 0 0;
 }
 
 #text-bottom {
-    height: 436px ;
+    height: 438px ;
     border-radius: 0 0 0 15px;
 }
 
@@ -195,9 +208,13 @@ header {
     margin-top: 30px;
     margin-right: 2%;
     margin-bottom: 30px;
-    border: 2px solid #202020;
+    
+    border-top: 2px solid #202020;
+    border-right: 2px solid #202020;
+    border-bottom: 2px solid #202020;;
     box-sizing: border-box;
     border-radius: 0 15px 15px 0;
+    box-shadow: 5px 5px #363939;
     
 }
 #img1 {
@@ -231,23 +248,34 @@ header {
 }
 
 /* Newsletter section */
+
+#sign-up {
+   /* background-color: rgb(175, 179, 156, 0.9); */
+}
+
 #newsletter {
     text-align: center;
     line-height: 50px;
     height: auto;
     width: 100%;
+    background-color: rgb(226, 228, 227, 0.9);
 }
 
-#newsletter form {
-    background-color: rgb(175, 179, 156, 0.9);
-}
+
 
 #newsletter button, input {
-    background-color: #cccccc;
+    width: 200px;
+    height:35px;
+    background-color: #ffffff;
     padding: 5px;
-    border: 2px solid #202020 ;
+    border: 3px solid #202020 ;
     margin: 5px;
     text-align: center;
+    border-radius: 15px;
+}
+#newsletter button {
+    height: 35px;
+    width: 100px;
 }
 
 /* Contact section*/
