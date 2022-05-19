@@ -487,7 +487,7 @@ strong {
 }
 .exer-h2 {
     padding-top: 5%;
-    text-align: left;
+    clear: both;
     margin-left: 2%;
     font-size: 250%;
     text-align: center;
@@ -603,38 +603,53 @@ fieldset {
 #vid-container-main {
     width: 100%;
     height: 800px;
-    background-color: bisque;
+    background-color: rgba(255, 240, 212, 0.7);
+    padding: 2% 0;
+
     
 }
+
 #vid-container-main h2 {
     text-align: center;
 }
 
 #vid-container-main p {
     text-align: center;
+    width: 80%;
+    margin: 0 auto;
 }
 
 
 
 #vid-container {
     border: 2px solid #202020;
-    width: 80%;
+    background-color: #ffffff;
+    width: 96%;
     height: auto;
     align-items: center;
     margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    
+}
+
+#vid-container h2 {
+    padding: 2%;
 }
 
 .five-minute {
     height: 350px;
     width: 100%;
-    background-color: red;
+    background-color: #ffffff;
+    border-radius: 15px 15px 0 0;
     
 
 }
 .ten-minute {
     height: 350px;
     width: 100%;
-    background-color: green;
+    background-color: #ffffff;
+    border-radius: 0 0 15px 15px ;
     
 }
 iframe {
