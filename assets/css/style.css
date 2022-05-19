@@ -495,6 +495,7 @@ strong {
    height: 100%;
    margin: 0 auto;
    background-color: #ffffff;
+   box-sizing: border-box;
 }
 .exer-container h2 {
     padding-top: 5%;
@@ -517,16 +518,16 @@ fieldset {
  }
  #top-text-container{
      
-     width: 66%;
+     width: 50%;
      float: left;
-     
+     box-sizing: border-box;
  }
 
  #bottom-text-container {
     
-     width: 66%;
+     width: 50%;
      float: left;
-     
+     box-sizing: border-box;
  }
 
 
@@ -538,14 +539,15 @@ fieldset {
     float: right;
     
     height: 564px;
-    width: 32%;
+    width: 48%;
     box-sizing: border-box;
     background-image: url("../images/Deskyoga\ Legs\,hips.jpeg");
-    background-color: #cccccc; 
+     
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: initial;
+    background-size: contain;
     margin-right: 2%; 
+    box-sizing: border-box;
     
 }
 
@@ -555,16 +557,45 @@ fieldset {
     float: right;
     
     height: 564px;
-    width: 32%;
+    width: 48%;
     box-sizing: border-box;
     background-image: url("../images/Desk\ yoga\ shoulders\ neck.jpeg");
-    background-color: #cccccc; 
+    
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: initial;
+    background-size: contain;
     margin-right: 2%; 
+    box-sizing: border-box;
     
 }
+
+@media screen  and (max-width: 950px)  {
+
+    #top-text-container {
+        clear: both;
+        float: left;
+        width: 100%;
+
+    }
+    #bottom-text-container {
+        clear: left;
+        float: left;
+        width: 100%;
+
+    }
+    #pic1 {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+    #pic2 {
+        clear: both;
+        float: left;
+        width: 100%;
+    }
+    
+}
+
 
 /*---------------------- Mindfulness.HTML----------------------*/
 
