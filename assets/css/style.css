@@ -497,11 +497,12 @@ strong {
    background-color: #ffffff;
    box-sizing: border-box;
 }
-.exer-container h2 {
+.exer-h2 {
     padding-top: 5%;
     text-align: left;
     margin-left: 2%;
-    font-size: 150%;
+    font-size: 250%;
+    text-align: center;
 }
 
 
@@ -570,6 +571,15 @@ fieldset {
 }
 
 @media screen  and (max-width: 950px)  {
+    .exer-h2 {
+        padding-top: 5%;
+        clear: both;
+        
+        text-align: center;
+        margin-left: 2%;
+        font-size: 250%;
+        text-decoration: underline;
+    }
 
     #top-text-container {
         clear: both;
