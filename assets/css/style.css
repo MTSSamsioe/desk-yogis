@@ -31,6 +31,26 @@ header {
     width: 100%;
     height: 100px;
 }
+
+#top-banner {
+    width: 100%;
+    height: 75px;
+    background-color: rgba(226, 228, 227, 0.9);
+}
+#bottom-banner {
+    width: 100%;
+    height: 75px;
+    background-image: linear-gradient( rgba(226, 228, 227, 1), #ffffff);
+}
+
+@media screen and (max-width: 950px) {
+    #bottom-banner {
+        height: 35px;
+
+    }
+    
+}
+
 /* Headings and nav menue */
 #logo {
     float: left;
@@ -413,40 +433,6 @@ header {
     }
 }
 
-/* Footer*/
-#contact {
-    height: 150px;
-    width: 100%;
-    text-align: center;
-    
-    
-}
-
-#contact li {
-    display: inline;
-    margin: 0 auto;
-    
-}
-#contact i {
-    color: #202020;
-    font-size: 250%;
-    padding: 1%;
-    margin: 5%;
-
-}
-
-@media screen and (max-width: 950px) {
-    #contact{
-        padding-top: 10%;
-    }
-    
-    #contact i {
-        
-        font-size: 150%;
-        
-    
-    }
-}
 
 
 /*-------------------------------------------- EXERCISES.HTML--------------------------------------------*/
@@ -493,9 +479,11 @@ strong {
    border-radius: 15px;
    width: 96%;
    height: 100%;
-   margin: 0 auto;
+   margin: 4% auto;
    background-color: #ffffff;
    box-sizing: border-box;
+   box-shadow: 5px 5px #363939;
+   
 }
 .exer-h2 {
     padding-top: 5%;
@@ -529,6 +517,7 @@ fieldset {
      width: 50%;
      float: left;
      box-sizing: border-box;
+     margin-bottom: 3%;
  }
 
 
@@ -655,4 +644,40 @@ iframe {
     margin-right: auto;
     display: block;
     
+}
+
+/*---------------------- Footer---------------------------*/
+#contact {
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    text-shadow: 7px 15px 17px #202020;
+    
+}
+
+#contact li {
+    display: inline;
+    margin: 0 auto;
+    
+}
+#contact i {
+    color: #202020;
+    font-size: 250%;
+    padding: 1%;
+    margin: 5%;
+
+}
+
+@media screen and (max-width: 950px) {
+    #contact{
+        padding-top: 10%;
+    }
+    
+    #contact i {
+        
+        font-size: 150%;
+        
+    
+    }
 }
