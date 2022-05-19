@@ -340,38 +340,38 @@ header {
 
     #text-top {
         
-        height: auto;
+       height: auto;
         
         width: 90%;
         margin: 0 5%;
         padding: 10px;
-        line-height: 25px;
-        box-sizing: border-box;
+        /*line-height: 25px;
+        box-sizing: border-box;*/
     }
 
     #img1 {
     
-    width: 90%;
+    width: 90%; 
     height: 260px;
     margin: 0 5%;
     border-radius: unset;
     
-    background-image: url(../images/mindful-small.jpg);
+    /*background-image: url(../images/mindful-small.jpg);
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     
     }
 
     #text-bottom {
          
-        height: auto;
+        /*height: auto;*/
         width: 90%;
         margin: 0 5%;
        
         padding: 10px;
-        line-height: 25px;
+       /* line-height: 25px;*/
         
     }
 
@@ -379,14 +379,14 @@ header {
             
           
     width: 90%;
-    height: 400px;
+    /*height: 400px;*/
     margin: 0 5%;
     border-radius: unset;
-    background-image: url(../images/Side-neck-small.jpg);
+    /*background-image: url(../images/Side-neck-small.jpg);
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
     
     
     }
