@@ -229,13 +229,6 @@ header {
     box-shadow: 5px 5px #363939;
 }
 
-/*#text-container div {
-    
-    padding: 30px;
-    
-    line-height: 25px;  
-}*/
-
 #text-top {
     float: left;
     height: 300px;
@@ -268,29 +261,12 @@ header {
     text-align: center;
 }
 
-/*#side {
-    float:right;
-    
-    width: 32%;
-    height: auto;
-    margin-top: 30px;
-    margin-right: 2%;
-    margin-bottom: 30px;
-    
-    border-top: 2px solid #202020;
-    border-right: 2px solid #202020;
-    border-bottom: 2px solid #202020;;
-    box-sizing: border-box;
-    border-radius: 0 15px 15px 0;
-    box-shadow: 5px 5px #363939;
-    
-}*/
 #img1 {
     float: left;
     
     width: 40%;
     height: 300px;
-    box-sizing: border-box;
+    
     background-image: url("../images/mindful-small.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -305,7 +281,7 @@ header {
     
     width: 40%;
     height: 536px;
-    box-sizing: border-box;
+    
     background-image: url("../images/Side-neck-small.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -315,7 +291,79 @@ header {
     box-sizing: border-box;
 }
 
+@media screen and (max-width: 950px){
+    #text-outer {
+        height: 2000px;
+        width: 100%;
+    }
+    #text-container {
+    background-color: #fff;
+    
+    width: 96%;
+   
+    height: 2000px;
+    margin: 0 auto;
+    
+    border: 2px solid #202020;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 5px 5px #363939;
+    }
+    #text-container h2 {
+        font-size: 50%;
+    }
+    #text-top {
+        
+        height: auto;
+        
+        width: 90%;
+        margin: 0 5%;
+        padding: 10px;
+        line-height: 25px;
+        box-sizing: border-box;
+    }
 
+    #img1 {
+    
+    width: 90%;
+    height: 260px;
+    margin: 0 5%;
+    border-radius: unset;
+    
+    background-image: url(../images/mindful-small.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+
+    #text-bottom {
+         
+        height: auto;
+        width: 90%;
+        margin: 0 5%;
+       
+        padding: 10px;
+        line-height: 25px;
+        
+    }
+
+    #img2 {
+            
+          
+    width: 90%;
+    height: 400px;
+    margin: 0 5%;
+    border-radius: unset;
+    background-image: url(../images/Side-neck-small.jpg);
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    }
+}
 
 
 /* Newsletter section */
