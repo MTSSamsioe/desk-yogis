@@ -449,7 +449,7 @@ header {
 }
 
 
-/*---------------------- EXERCISES.HTML----------------------*/
+/*-------------------------------------------- EXERCISES.HTML--------------------------------------------*/
 
 
 
@@ -479,15 +479,31 @@ strong {
 }
 
 
-/* First section with exercises*/
-.exer-text-container {
-    float: left;
-    
-    height: auto;
-    width: 66%;
-    box-sizing: border-box;
+/* Main container */
+#exer-outer {
+    display: flex;
+    background-color: rgba(255, 240, 212, 0.7);
+    width: 100%;
+    height: 100%;
     
 }
+.exer-container {
+    
+   border: #202020 2px solid;
+   border-radius: 15px;
+   width: 96%;
+   height: 100%;
+   margin: 0 auto;
+   background-color: #ffffff;
+}
+.exer-container h2 {
+    padding-top: 5%;
+    text-align: left;
+    margin-left: 2%;
+    font-size: 150%;
+}
+
+
 fieldset {
     
     line-height: 25px;
@@ -499,28 +515,25 @@ fieldset {
     margin: auto;
     padding-left: 25px;
  }
+ #top-text-container{
+     
+     width: 66%;
+     float: left;
+     
+ }
 
-
-
-.exer-text {
-   
-   width: 100%;
-   height: 282px;
-   
-}
-
-
-
-#exer-text2 {
+ #bottom-text-container {
     
-    width: 100%;
-    height: 282px;
+     width: 66%;
+     float: left;
+     
+ }
 
-}
+
 
 
 /* Side picture for the first exercises section*/
-#exer1-pic-container {
+#pic1 {
     
     float: right;
     
@@ -531,13 +544,13 @@ fieldset {
     background-color: #cccccc; 
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: fit;
+    background-size: initial;
     margin-right: 2%; 
     
 }
 
 /* Side picture for the second exercises section*/
-#exer2-pic-container {
+#pic2 {
     
     float: right;
     
@@ -548,7 +561,7 @@ fieldset {
     background-color: #cccccc; 
     background-position: center; 
     background-repeat: no-repeat; 
-    background-size: fit;
+    background-size: initial;
     margin-right: 2%; 
     
 }
