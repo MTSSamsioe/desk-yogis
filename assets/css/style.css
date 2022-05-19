@@ -385,6 +385,8 @@ header {
     height: auto;
     width: 100%;
     background-color: rgb(226, 228, 227, 0.9);
+    padding-bottom: 35px;
+    background-image: linear-gradient( rgba(226,228, 227, 1), #ffffff);
 }
 
 
@@ -402,18 +404,28 @@ header {
 #newsletter button {
     height: 35px;
     width: 100px;
+    
 }
 
-/* Contact section*/
+@media screen and (max-width: 950px) {
+    #newsletter h2 {
+        font-size: 80%;
+    }
+}
+
+/* Footer*/
 #contact {
     height: 150px;
     width: 100%;
     text-align: center;
+    
+    
 }
 
 #contact li {
     display: inline;
     margin: 0 auto;
+    
 }
 #contact i {
     color: #202020;
@@ -422,6 +434,20 @@ header {
     margin: 5%;
 
 }
+
+@media screen and (max-width: 950px) {
+    #contact{
+        padding-top: 10%;
+    }
+    
+    #contact i {
+        
+        font-size: 150%;
+        
+    
+    }
+}
+
 
 /*---------------------- EXERCISES.HTML----------------------*/
 
