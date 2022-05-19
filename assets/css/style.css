@@ -142,7 +142,7 @@ header {
 }
 
 #cover-text h2 {
-    font-size: 50%;
+    font-size: 200%;
 }
 
 
@@ -168,14 +168,14 @@ header {
 
 @media screen and (max-width: 950px) {
     #cover-text {
-        background-color: rgba(226, 228, 227, 0.3);
+        background-color: rgba(226, 228, 227, 0.5);
         border-radius: 15%;
         
         
     }
 
     #cover-text h2 {
-        font-size: 200%;
+        font-size: 80%;
         letter-spacing: 1px;
         padding: 3px;
     }
@@ -293,15 +293,16 @@ header {
 
 @media screen and (max-width: 950px){
     #text-outer {
-        height: 2000px;
+        display: flex;
+        height: 100%;
         width: 100%;
     }
     #text-container {
     background-color: #fff;
-    
+    padding: 25px 0;
     width: 96%;
    
-    height: 2000px;
+    height: 100%;
     margin: 0 auto;
     
     border: 2px solid #202020;
@@ -309,8 +310,14 @@ header {
     box-shadow: 5px 5px #363939;
     }
     #text-container h2 {
-        font-size: 50%;
+        font-size: 100%;
     }
+    #text-container h3 {
+        font-size: 75%;
+    }
+   
+
+
     #text-top {
         
         height: auto;
