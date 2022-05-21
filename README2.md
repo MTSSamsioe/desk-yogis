@@ -104,3 +104,7 @@ Visitors can also sign up for our newsletter to get more guided meditations and 
 - Imgages are taken from https://www.shutterstock.com/
 - Icons are taken from font awsome
 - Font are taken from google fonts. I used Antonio fo the headers and Arvo font-weight 400 and 700 for the text.
+
+
+
+![test2](assets/images/lighthouse_test.png)
