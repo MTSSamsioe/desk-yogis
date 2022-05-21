@@ -4,13 +4,13 @@
     margin: 0;
     padding: 0;
     border: none;
-    
+
 }
 
 body {
     font-family: Arvo, sans-serif;
     font-weight: 400;
-    color:#363939;
+    color: #363939;
 }
 
 a {
@@ -22,8 +22,11 @@ p {
 }
 
 
-h1, h2, h3, h4 {
-    font-family:Antonio, sans-serif ;
+h1,
+h2,
+h3,
+h4 {
+    font-family: Antonio, sans-serif;
     font-weight: 400;
     color: #202020;
     letter-spacing: 3px;
@@ -39,12 +42,13 @@ header {
     width: 100%;
     height: 75px;
     /*background-color: rgba(226, 228, 227, 0.9);*/
-    background-image: linear-gradient(rgba(226, 228, 227, 1), rgba(255, 240, 212, 0.7))  ;
+    background-image: linear-gradient(rgba(226, 228, 227, 1), rgba(255, 240, 212, 0.7));
 }
+
 #bottom-banner {
     width: 100%;
     height: 75px;
-    background-image: linear-gradient(rgba(226, 228, 227, 1), #ffffff );
+    background-image: linear-gradient(rgba(255, 240, 212, 0.7), rgba(226, 228, 227, 0.5), #ffffff);
 }
 
 @media screen and (max-width: 950px) {
@@ -52,7 +56,7 @@ header {
         height: 35px;
 
     }
-    
+
 }
 
 /* Headings and nav menue */
@@ -66,11 +70,11 @@ header {
     letter-spacing: 7px;
     text-decoration: none;
     line-height: 90px;
-    
+
 }
 
 #navigation {
-    
+
     line-height: 90px;
 
 }
@@ -79,8 +83,8 @@ header {
     margin-right: 30px;
     list-style-type: none;
     float: right;
-    
-    
+
+
 
 
 }
@@ -88,12 +92,13 @@ header {
 #navigation a {
     font-size: 165%;
     color: inherit;
-    
-    
+
+
 }
 
-#navigation a:hover, .active {
-    border-bottom: 2px solid #363939 ;
+#navigation a:hover,
+.active {
+    border-bottom: 2px solid #363939;
 }
 
 /* For media screens sizes below 950px*/
@@ -104,17 +109,18 @@ header {
     }
 
     #navigation {
-    font-size: 44%;
-    clear: left;
-    float: left;
-    margin-left: 3%;
-    margin-bottom: 25px;
-    
-    line-height: 45px;
+        font-size: 44%;
+        clear: left;
+        float: left;
+        margin-left: 3%;
+        margin-bottom: 25px;
+
+        line-height: 45px;
     }
+
     #navigation li {
         align-items: center;
-        
+
     }
 
     #logo {
@@ -131,20 +137,20 @@ header {
 /* hero images and cover text*/
 #hero-container {
     width: 100%;
-    height:300px;
+    height: 300px;
     position: relative;
 }
 
-#hero { 
+#hero {
     background-image: url("../images/Hero-img_small.jpg");
-    background-color: #cccccc; 
+    background-color: #cccccc;
     width: 100%;
-    height: 300px; 
-    background-position: center; 
-    background-repeat: no-repeat; 
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0%; 
-    
+    background-position: 0%;
+
 
 }
 
@@ -154,19 +160,19 @@ header {
     border-radius: 15%;
     justify-content: center;
     bottom: 40%;
-    left:45%;
+    left: 45%;
     line-height: 25px;
-    
+
     height: auto;
-    
+
     width: auto;
 
     /* Animates cover text on page load */
     animation-name: cover-show;
     animation-duration: 10s;
     animation-fill-mode: forwards;
-    
-    
+
+
 }
 
 #cover-text h2 {
@@ -181,16 +187,16 @@ header {
 
 @keyframes cover-show {
     from {
-        opacity:  0 ;
+        opacity: 0;
         transform: scale(0);
         left: 0%;
-     }
-  
+    }
+
     to {
-        opacity:  1 ;
+        opacity: 1;
         transform: scale(1);
         left: 45%;
-        
+
     }
 }
 
@@ -198,8 +204,8 @@ header {
     #cover-text {
         background-color: rgba(226, 228, 227, 0.5);
         border-radius: 15%;
-        
-        
+
+
     }
 
     #cover-text h2 {
@@ -208,8 +214,8 @@ header {
         padding: 3px;
     }
 
-   
-    
+
+
 }
 
 
@@ -221,8 +227,8 @@ header {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: 100%; 
-    
+    font-size: 100%;
+
     background-image: linear-gradient(to right, rgb(175, 179, 156, 0.7), rgba(226, 228, 227, 0.7));
 }
 
@@ -242,16 +248,16 @@ header {
     width: 100%;
     height: 100%;
     background-color: rgba(255, 240, 212, 0.7);
-    padding : 2% 0;
+    padding: 2% 0;
 
 }
 
 #text-container {
     background-color: #fff;
-    margin:  0 auto;
+    margin: 0 auto;
     width: 96%;
     height: 100%;
-    
+
     box-sizing: border-box;
     border: 2px solid #202020;
     border-radius: 15px 15px 15px 15px;
@@ -264,7 +270,7 @@ header {
     float: left;
     height: 100%;
     border-radius: 15px 0 0 0;
-    
+
     width: 60%;
     padding: 25px 25px 0 25px;
     line-height: 25px;
@@ -272,11 +278,11 @@ header {
 }
 
 #text-bottom {
-    
+
     height: 100%;
     width: 60%;
     border-radius: 0 0 0 15px;
-    
+
     float: left;
     padding: 25px;
     line-height: 25px;
@@ -294,10 +300,10 @@ header {
 
 #img1 {
     float: left;
-    
+
     width: 40%;
     height: 443px;
-    
+
     background-image: url("../images/mindful-small.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -305,14 +311,15 @@ header {
     background-size: cover;
     border-radius: 0 15px 0 0;
     box-sizing: border-box;
-    
+
 }
+
 #img2 {
     float: left;
-    
+
     width: 40%;
     height: 600px;
-    
+
     background-image: url("../images/Side-neck-small.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -322,84 +329,77 @@ header {
     box-sizing: border-box;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 950px) {
     #text-outer {
         display: flex;
         height: 100%;
         width: 100%;
     }
+
     #text-container {
-    background-color: #fff;
-    padding: 25px 0;
-    width: 96%;
-   
-    height: 100%;
-    margin: 0 auto;
-    
-    border: 2px solid #202020;
-    border-radius: 15px 15px 15px 15px;
-    box-shadow: 5px 5px #363939;
+        background-color: #fff;
+        padding: 25px 0;
+        width: 96%;
+
+        height: 100%;
+        margin: 0 auto;
+
+        border: 2px solid #202020;
+        border-radius: 15px 15px 15px 15px;
+        box-shadow: 5px 5px #363939;
     }
+
     #text-container h2 {
         font-size: 100%;
     }
+
     #text-container h3 {
         font-size: 75%;
     }
-   
+
 
 
     #text-top {
-        
-       height: auto;
-        
+
+        height: auto;
+
         width: 90%;
         margin: 0 5%;
         padding: 10px;
-        /*line-height: 25px;
-        box-sizing: border-box;*/
+
     }
 
     #img1 {
-    
-    width: 90%; 
-    height: 260px;
-    margin: 0 5%;
-    border-radius: unset;
-    
-    /*background-image: url(../images/mindful-small.jpg);
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    
+
+        width: 90%;
+        height: 260px;
+        margin: 0 5%;
+        border-radius: unset;
+
+
+
     }
 
     #text-bottom {
-         
+
         height: auto;
         width: 90%;
         margin: 0 5%;
-       
+
         padding: 10px;
-       /* line-height: 25px;*/
-        
+        /* line-height: 25px;*/
+
     }
 
     #img2 {
-            
-          
-    width: 90%;
-    height: 260px;
-    margin: 0 5%;
-    border-radius: unset;
-    /*background-image: url(../images/Side-neck-small.jpg);
-    background-color: #cccccc;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    
-    
+
+
+        width: 90%;
+        height: 260px;
+        margin: 0 5%;
+        border-radius: unset;
+
+
     }
 }
 
@@ -407,7 +407,7 @@ header {
 /* Newsletter section */
 
 
-   /* background-color: rgb(175, 179, 156, 0.9); */
+
 
 
 #newsletter {
@@ -417,28 +417,37 @@ header {
     width: 100%;
     background-color: rgb(226, 228, 227, 0.9);
     padding-bottom: 35px;
-    background-image: linear-gradient( rgba(226,228, 227, 1), #ffffff);
+
+    background-image: linear-gradient(rgba(255, 240, 212, 0.9), rgba(226, 228, 227, 0.5), #ffffff);
 }
 
 
 
-#newsletter button, input {
+#newsletter input {
     width: 200px;
-    height:50px;
+    height: 50px;
     background-color: #ffffff;
-    
-    border: 3px solid #202020 ;
-    
+    color: #202020;
+    border: 3px solid #202020;
+
     text-align: center;
     border-radius: 15px;
     line-height: 40px;
 }
+
 #newsletter button {
     height: 50px;
     width: 100px;
+    background-color: #ffffff;
+
+    border: 3px solid #202020;
+
+    text-align: center;
+    border-radius: 15px;
+    line-height: 40px;
     line-height: 40px;
     font-size: 80%;
-    
+
 }
 
 @media screen and (max-width: 950px) {
@@ -459,7 +468,7 @@ header {
     line-height: 25px;
     margin-top: 50px;
     padding: 25px;
-    
+
 }
 
 .exer-h3 {
@@ -475,30 +484,32 @@ strong {
     height: auto;
     box-sizing: border-box;
 
-    
+
 }
 
 
-/* Main container */
+/* Main container for all exercises */
 #exer-outer {
     display: flex;
     background-color: rgba(255, 240, 212, 0.7);
     width: 100%;
     height: 100%;
-    
+
 }
+
 .exer-container {
-    
-   border: #202020 2px solid;
-   border-radius: 15px;
-   width: 96%;
-   height: 100%;
-   margin: 4% auto;
-   background-color: #ffffff;
-   box-sizing: border-box;
-   box-shadow: 5px 5px #363939;
-   
+
+    border: #202020 2px solid;
+    border-radius: 15px;
+    width: 96%;
+    height: 100%;
+    margin: 4% auto;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #363939;
+
 }
+
 .exer-h2 {
     padding-top: 5%;
     clear: both;
@@ -509,7 +520,7 @@ strong {
 
 
 fieldset {
-    
+
     line-height: 25px;
     width: 90%;
     height: 250px;
@@ -518,66 +529,67 @@ fieldset {
     align-content: center;
     margin: auto;
     padding-left: 25px;
- }
- #top-text-container{
-     
-     width: 50%;
-     float: left;
-     box-sizing: border-box;
- }
+}
 
- #bottom-text-container {
-    
-     width: 50%;
-     float: left;
-     box-sizing: border-box;
-     margin-bottom: 3%;
- }
+#top-text-container {
+
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+#bottom-text-container {
+
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+}
 
 
 
 
 /* Side picture for the first exercises section*/
 #pic1 {
-    
+
     float: right;
-    
+
     height: 564px;
     width: 48%;
     box-sizing: border-box;
     background-image: url("../images/Deskyoga_Legs\,hips.jpeg");
-     
-    background-position: center; 
-    background-repeat: no-repeat; 
+
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 2%; 
+    margin-right: 2%;
     box-sizing: border-box;
-    
+
 }
 
 /* Side picture for the second exercises section*/
 #pic2 {
-    
+
     float: right;
-    
+
     height: 564px;
     width: 48%;
     box-sizing: border-box;
     background-image: url("../images/Desk_yoga_shoulders_neck.jpeg");
-    
-    background-position: center; 
-    background-repeat: no-repeat; 
+
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: contain;
-    margin-right: 2%; 
+    margin-right: 2%;
     box-sizing: border-box;
-    
+
 }
 
-@media screen  and (max-width: 950px)  {
+@media screen and (max-width: 950px) {
     .exer-h2 {
         padding-top: 5%;
         clear: both;
-        
+
         text-align: center;
         margin-left: 2%;
         font-size: 250%;
@@ -591,6 +603,7 @@ fieldset {
         margin: 0 3%;
 
     }
+
     #bottom-text-container {
         /*clear: left;*/
         /*float: left;*/
@@ -599,36 +612,33 @@ fieldset {
         padding-bottom: 5%;
 
     }
-    #pic1 {
-        /*clear: both;*/
-       /* float: left;*/
-        width: 94%;
-        height: 400px;
-        margin: 0 3%;
-    }
-    #pic2 {
-        /*clear: both;*/
-        /*float: left;*/
-        width: 94%;
-        height: 400px;
-        margin: 0 3%;
-    }
-    
-}
 
+    #pic1 {
+
+        width: 94%;
+        height: 400px;
+        margin: 0 3%;
+    }
+
+    #pic2 {
+
+        width: 94%;
+        height: 400px;
+        margin: 0 3%;
+    }
+
+}
 
 /*---------------------- Mindfulness.HTML----------------------*/
 
-
-
 #vid-container-main {
-    
+
     width: 100%;
     height: auto;
     background-color: rgba(255, 240, 212, 0.7);
     padding: 2% 0;
 
-    
+
 }
 
 #vid-container-main h2 {
@@ -659,7 +669,7 @@ fieldset {
     margin: 2% auto;
     border-radius: 15px;
     box-shadow: 5px 5px;
-    
+
 }
 
 #vid-container h2 {
@@ -671,23 +681,25 @@ fieldset {
     width: 100%;
     background-color: #ffffff;
     border-radius: 15px 15px 0 0;
-    
+
 
 }
+
 .ten-minute {
     height: 300px;
     width: 100%;
     background-color: #ffffff;
-    border-radius: 0 0 15px 15px ;
-    
+    border-radius: 0 0 15px 15px;
+
 }
+
 iframe {
     width: 80%;
     height: 200px;
     margin-left: auto;
     margin-right: auto;
     display: block;
-    
+
 }
 
 /*---------------------- Footer---------------------------*/
@@ -697,14 +709,15 @@ iframe {
     text-align: center;
     background-color: #ffffff;
     text-shadow: 7px 15px 17px #202020;
-    
+
 }
 
 #contact li {
     display: inline;
     margin: 0 auto;
-    
+
 }
+
 #contact i {
     color: #202020;
     font-size: 250%;
@@ -714,14 +727,14 @@ iframe {
 }
 
 @media screen and (max-width: 950px) {
-    #contact{
+    #contact {
         padding-top: 10%;
     }
-    
+
     #contact i {
-        
+
         font-size: 150%;
-        
-    
+
+
     }
 }

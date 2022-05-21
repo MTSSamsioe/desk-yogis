@@ -1,5 +1,7 @@
 # DESK YOGIS
 
+---
+
 Deskyogis.com is a site for people who send several hours per day sitting still in front of a screen.
 Site visitors will find exercises for both body and mind. 
 Yoga exercises for the body that can be preformed sitting down at a desk.
@@ -66,17 +68,19 @@ Visitors can also sign up for our newsletter to get more guided meditations and 
 
 - HTML validator
     - No erors returned using W3C validator "https://validator.w3.org/"
+    
 
 - Css validator
     - No error returned using Jigsaw "https://jigsaw.w3.org/"
 
 - Lighthouse and Accessibility
-    - Passed throug light house test with good score in every category
-
-<img src="Lighthouse_test.png" alt="Screen shot of light house test for Desk-yogis site">
+    - Passed throug lighthouse test with good score in every category
 
 
 
+
+
+---
 
 # Deployment
 
@@ -89,6 +93,14 @@ Visitors can also sign up for our newsletter to get more guided meditations and 
     - https://www.w3schools.com
 - Yoga videos Goodful channel on you tube https://www.youtube.com/c/Goodful
 
-# Content
 
-# Media
+
+## Content
+- Footer and navigation header are inspired by walk through project CI "Love running"
+- Text about mindfulness
+    - https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
+
+## Media
+- Imgages are taken from https://www.shutterstock.com/
+- Icons are taken from font awsome
+- Font are taken from google fonts. I used Antonio fo the headers and Arvo font-weight 400 and 700 for the text.
