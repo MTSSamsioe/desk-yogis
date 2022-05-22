@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&family=Arvo:wght@400;700&display=swap');
 
+/* Css for all pages*/
 * {
     margin: 0;
     padding: 0;
@@ -41,7 +42,6 @@ header {
 #top-banner {
     width: 100%;
     height: 75px;
-    /*background-color: rgba(226, 228, 227, 0.9);*/
     background-image: linear-gradient(rgba(226, 228, 227, 1), rgba(255, 240, 212, 0.7));
 }
 
@@ -50,7 +50,7 @@ header {
     height: 75px;
     background-image: linear-gradient(rgba(255, 240, 212, 0.7), rgba(226, 228, 227, 0.5), #ffffff);
 }
-
+/* Top and bottom banner for screen sizes smaller than 950px*/
 @media screen and (max-width: 950px) {
     #bottom-banner {
         height: 35px;
@@ -61,8 +61,6 @@ header {
 
 /* Headings and nav menue */
 
-
-
 #logo {
     float: left;
     font-size: 250%;
@@ -70,30 +68,21 @@ header {
     letter-spacing: 7px;
     text-decoration: none;
     line-height: 90px;
-
 }
 
 #navigation {
-
     line-height: 90px;
-
 }
 
 #navigation li {
     margin-right: 30px;
     list-style-type: none;
     float: right;
-
-
-
-
 }
 
 #navigation a {
     font-size: 165%;
     color: inherit;
-
-
 }
 
 #navigation a:hover,
@@ -162,26 +151,19 @@ header {
     bottom: 40%;
     left: 45%;
     line-height: 25px;
-
     height: auto;
-
     width: auto;
 
-    /* Animates cover text on page load */
+/* Animates cover text on page load */
     animation-name: cover-show;
     animation-duration: 10s;
     animation-fill-mode: forwards;
-
 
 }
 
 #cover-text h2 {
     font-size: 200%;
 }
-
-
-
-
 
 /* Createsm visibility for cover-text */
 
@@ -199,13 +181,11 @@ header {
 
     }
 }
-
+/* cover text on hero image for screen sizes smaller than 950px*/
 @media screen and (max-width: 950px) {
     #cover-text {
         background-color: rgba(226, 228, 227, 0.5);
         border-radius: 15%;
-
-
     }
 
     #cover-text h2 {
@@ -213,13 +193,9 @@ header {
         letter-spacing: 1px;
         padding: 3px;
     }
-
-
-
 }
 
-
-/* Head line */
+/* Head line with message */
 
 #head-line-container {
     width: 100%;
@@ -228,10 +204,9 @@ header {
     padding-top: 30px;
     padding-bottom: 30px;
     font-size: 100%;
-
     background-image: linear-gradient(to right, rgb(175, 179, 156, 0.7), rgba(226, 228, 227, 0.7));
 }
-
+/* Headline for screen sizes smaller than 950px*/
 @media screen and (max-width: 950px) {
     #head-line-container {
         height: 15px;
@@ -241,7 +216,7 @@ header {
     }
 }
 
-/* Article section with side picture*/
+/* Site content section (About us) with side picture*/
 
 #text-outer {
     display: flex;
@@ -257,7 +232,6 @@ header {
     margin: 0 auto;
     width: 96%;
     height: 100%;
-
     box-sizing: border-box;
     border: 2px solid #202020;
     border-radius: 15px 15px 15px 15px;
@@ -270,7 +244,6 @@ header {
     float: left;
     height: 100%;
     border-radius: 15px 0 0 0;
-
     width: 60%;
     padding: 25px 25px 0 25px;
     line-height: 25px;
@@ -282,7 +255,6 @@ header {
     height: 100%;
     width: 60%;
     border-radius: 0 0 0 15px;
-
     float: left;
     padding: 25px;
     line-height: 25px;
@@ -300,10 +272,8 @@ header {
 
 #img1 {
     float: left;
-
     width: 40%;
     height: 443px;
-
     background-image: url("../images/mindful-small.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -316,10 +286,8 @@ header {
 
 #img2 {
     float: left;
-
     width: 40%;
-    height: 600px;
-
+    height: 643px;
     background-image: url("../images/side-neck-small.jpg");
     background-color: #cccccc;
     background-position: center;
@@ -328,7 +296,7 @@ header {
     border-radius: 0 0 15px 0;
     box-sizing: border-box;
 }
-
+/* Site content section on index.html for screen sizes smaller than 950px*/
 @media screen and (max-width: 950px) {
     #text-outer {
         display: flex;
@@ -340,10 +308,8 @@ header {
         background-color: #fff;
         padding: 25px 0;
         width: 96%;
-
         height: 100%;
         margin: 0 auto;
-
         border: 2px solid #202020;
         border-radius: 15px 15px 15px 15px;
         box-shadow: 5px 5px #363939;
@@ -362,7 +328,6 @@ header {
     #text-top {
 
         height: auto;
-
         width: 90%;
         margin: 0 5%;
         padding: 10px;
@@ -385,9 +350,8 @@ header {
         height: auto;
         width: 90%;
         margin: 0 5%;
-
         padding: 10px;
-        /* line-height: 25px;*/
+        
 
     }
 
@@ -399,16 +363,11 @@ header {
         margin: 0 5%;
         border-radius: unset;
 
-
     }
 }
 
 
 /* Newsletter section */
-
-
-
-
 
 #newsletter {
     text-align: center;
@@ -417,11 +376,8 @@ header {
     width: 100%;
     background-color: rgb(226, 228, 227, 0.9);
     padding-bottom: 35px;
-
     background-image: linear-gradient(rgba(255, 240, 212, 0.9), rgba(226, 228, 227, 0.5), #ffffff);
 }
-
-
 
 #newsletter input {
     width: 200px;
@@ -429,26 +385,20 @@ header {
     background-color: #ffffff;
     color: #202020;
     border: 3px solid #202020;
-
     text-align: center;
     border-radius: 15px;
     line-height: 40px;
 }
 
-#newsletter button {
-    height: 50px;
-    width: 100px;
-    background-color: #ffffff;
-
-    border: 3px solid #202020;
-
+#newsletter i {
+    display: block;
+    margin: 1% auto;
     text-align: center;
-    border-radius: 15px;
-    line-height: 40px;
-    line-height: 40px;
-    font-size: 80%;
-
+    font-size: 200%;
+    color: #202020;
 }
+
+/* Newsletter section for screen sizes smaller than 950px*/
 
 @media screen and (max-width: 950px) {
     #newsletter h2 {
@@ -459,8 +409,7 @@ header {
 
 
 /*-------------------------------------------- EXERCISES.HTML--------------------------------------------*/
-
-
+/* Heading and main containers*/
 
 .exer-h1 {
     text-align: center;
@@ -468,7 +417,6 @@ header {
     line-height: 25px;
     margin-top: 50px;
     padding: 25px;
-
 }
 
 .exer-h3 {
@@ -483,18 +431,15 @@ strong {
     width: 100%;
     height: auto;
     box-sizing: border-box;
-
-
 }
 
 
-/* Main container for all exercises */
+/* Main container for all exercises and text containers */
 #exer-outer {
     display: flex;
     background-color: rgba(255, 240, 212, 0.7);
     width: 100%;
     height: 100%;
-
 }
 
 .exer-container {
@@ -553,12 +498,10 @@ fieldset {
 #pic1 {
 
     float: right;
-
     height: 564px;
     width: 48%;
     box-sizing: border-box;
     background-image: url("../images/deskyoga_Legs\,hips.jpeg");
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -571,12 +514,10 @@ fieldset {
 #pic2 {
 
     float: right;
-
     height: 564px;
     width: 48%;
     box-sizing: border-box;
     background-image: url("../images/desk_yoga_shoulders_neck.jpeg");
-
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -584,12 +525,11 @@ fieldset {
     box-sizing: border-box;
 
 }
-
+/* exercises.html for screen sizes smaller than 950px*/
 @media screen and (max-width: 950px) {
     .exer-h2 {
         padding-top: 5%;
         clear: both;
-
         text-align: center;
         margin-left: 2%;
         font-size: 250%;
@@ -597,16 +537,14 @@ fieldset {
     }
 
     #top-text-container {
-        /*clear: both;*/
-        /*float: left;*/
+       
         width: 94%;
         margin: 0 3%;
 
     }
 
     #bottom-text-container {
-        /*clear: left;*/
-        /*float: left;*/
+        
         width: 94%;
         margin: 0 3%;
         padding-bottom: 5%;
@@ -629,7 +567,7 @@ fieldset {
 
 }
 
-/*---------------------- Mindfulness.HTML----------------------*/
+/*------------------------------ Mindfulness.HTML--------------------------------------*/
 
 #vid-container-main {
 
@@ -637,8 +575,6 @@ fieldset {
     height: auto;
     background-color: rgba(255, 240, 212, 0.7);
     padding: 2% 0;
-
-
 }
 
 #vid-container-main h2 {
@@ -681,8 +617,6 @@ fieldset {
     width: 100%;
     background-color: #ffffff;
     border-radius: 15px 15px 0 0;
-
-
 }
 
 .ten-minute {
@@ -702,7 +636,7 @@ iframe {
 
 }
 
-/*---------------------- Footer---------------------------*/
+/*------------------------------------- Footer-----------------------------------------*/
 #contact {
     height: 150px;
     width: 100%;
@@ -726,6 +660,7 @@ iframe {
 
 }
 
+/* Footer for screen sizes smaller than 950px*/
 @media screen and (max-width: 950px) {
     #contact {
         padding-top: 10%;
