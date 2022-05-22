@@ -1,108 +1,155 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome M. Samsioe,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+# DESK YOGIS
 
 ---
 
-Happy coding!
+Deskyogis.com is a site for people who spend several hours per day sitting still in front of a screen.
+Site visitors will find exercises for both body and mind. 
+Yoga exercises for the body that can be preformed sitting down at a desk.
+And guided meditations for the mind that also can be preformed sitting at a desk.
+Visitors can also sign up for our newsletter to get more guided meditations and yoga exercises.
+To have both guided meditations and yoga exercises on the sam page creates value to the visitor and helps the visitor to make the most of their breaks at work. 
+
+## Features
+
+- Navigation and header
+    - The navigation can be found in the header section at the top of the page to the right in the header. The links go to all pages index.html (Home), exercise.html and mindfulness.html
+    - The page you are on is underlined in the navigation links
+    - The title of the page is to the left in the navigation header and is linked to index.html
+    - Other links can be found in the text blocks on all pages when references to other sections is mentioned
+    - The navigation header is white on all pages to differentiate it from the rest of the page
+
+![picture of header and navigation](assets/images/header_nav_section.png)
+
+- Hero image and cover text
+    - Hero image is a woman stretching at a desk to convey what the site is about in one picture
+    - An animation emerges to catch the visitors eye with what can be found on the site
+    - Under the hero image a banner is shown with a fact that shows how important breaks are
+    - Colors from the hero picture fades into the banner underneath
+
+![picture of hero image and cover text](assets/images/hero_image_cover_text.png)
+
+# Site content section and about us
+ - Site content section consists of:
+    - About us "Make the most of your break" which explains what visitors can find on the site
+    - Info about desk yoga exercises and why they are useful
+    - Info about guided meditations and why they are useful and what the benefits can be
+    - The site conten section is Valuble to a visitor because it summarises what they can find on the site and where and who is are the target audience
+ 
+![picture of about us site content section](assets/images/about_us_site_content.png)
+
+# Newsletter section
+- Contains a sign up form so visitos can submit their email adress
+- No server is set up to receive the email adresses yet so an error is returned 
+- The newsletter brings value to visitors by sending them new exercises and guided meditations
+
+![picture of newletter and sign up section](assets/images/newsletter_section.png)
+
+# Contact section
+- The contact section shows users how they can get in contact with us via email, Instagram, Twitter, Facebook and Youtube
+- All links open up in a new browser tab. Except for the email symbol that opens a mail client window installed on the operating system of the visitor
+- The contact section creates value for the visitor because it shows how to get in touch, get more information and join our community on other platforms
+- The contact section does not have any text, just icons, that clearly shows what visitors can expect if clicked.
+
+![piscture of footer and contact section](assets/images/footer_contact_section.png)
+
+# Top and bottom banner
+- Top and bottom banners are divs that are used for fading colors background-colors together to avoid sharp color changes
+
+![Picture of banner color fading example](assets/images/banner_example.png)
+
+# Testing
+- The site is tested so it is looks good in different browsers such as: Safari, Chrome and Fire fox
+- All internal links are tested and all external links are tested so that they opens in new tabs
+- The sign up form is tested so that it only accepts a correct email adress
+- Responsiveness:
+    - I have confirmed that the all pages are responsive on all standard screens using dev tools device toolbar
+    - Index.html and exercises.html have their pictures that belong to the text to the right. When screen width goes under 950px they all become block elements instead and show underneath each other.
+    - The header with navigation will show the nav-links underneath the page title when the screen is under 950px. Instead of to the right on wider screens
+
+## Pictures of the responsive design on index.html
+
+![pictture of top section of index.html](assets/images/responsive_top.png) ![pictture of middel section of index.html](assets/images/responsive_middle.png) ![pictture of end section of index.html](assets/images/responsive_end.png)
+
+
+# Bugs
+   
+## Solved Bugs
+- The footer with the contact section did not show on the other pages, only index.html
+    - Fix: I did not import the script from fontawsome.com on the other pages. And because the contact section consist only of icons it did not show anything.
+- I couldn´t get the iframes of the Youtube videos to show anything:
+    - Fix: I inserted the url to the Youtube clip in the src="" attribute but I later realized that I had to paste the entire imbeded code from the "Share" function on Youtube 
+- The wrapper for the text section on index.html was either too long or too short for its content
+    - Fix: I contacted a CI tutor and he said to add display: flex ; to the wrapper and height 100% to the divs inside to make it the same height and responsive    
+
+
+## Unfixed bugs
+- No unfixed bugs
+
+# Validator testing
+
+- HTML validator
+    - No errors returned using W3C validator "https://validator.w3.org/"
+    
+
+- Css validator
+    - No errors returned using Jigsaw "https://jigsaw.w3.org/"
+
+- Lighthouse and Accessibility
+    - Passed through lighthouse test with high score in every category
+
+![Lighthhouse test results](assets/images/lighthouse_test.png)
+
+
+
+---
+
+# Deployment
+
+- The site was deployed on git hub in these steps
+- Go to settings of your repository on git hub
+- Scroll down to "pages" section 
+- Choose main branch under the source drop down menu, then press save and the link is produced.
+- This is the link to the site: https://mtssamsioe.github.io/desk-yogis/index.html
+
+# Atribution
+
+- Css and html help
+    - https://www.w3schools.com
+- Yoga videos Goodful channel on Youtube https://www.youtube.com/c/Goodful
+
+
+
+## Content
+- Footer and navigation header are inspired by walkthrough project CI "Love running"
+- Text about mindfulness
+    - https://www.mayoclinic.org/tests-procedures/meditation/in-depth/meditation/art-20045858
+
+## Media
+- Imgages are taken from https://www.shutterstock.com/
+- Icons are taken from fontawsome.com
+- Fonts are taken from googlefonts.com. I used Antonio for the headers and Arvo font-weight 400 and 700 for the text.
+
+
+
+---
+
+# Mockups and wireframes
+
+
+## Early wire frame desktop
+
+### index.html 
+
+![picture of index.html mockup on desktop](assets/images/wire-frame_index_desktop.png)
+
+### exercises.html 
+
+![picture of exercises.html mockup on desktop](assets/images/wire_frame_exercises_desktop.png) 
+
+### mindfulness.html 
+
+![picture of mindfulness.html mockup on desktop](assets/images/wire_frame_mindfulness_desktop.png)
+
+## Early wire frame mobile
+
+![picture of index.html mockup on phone](assets/images/wire_frame_index_phone.png) ![picture of exercises.html mockup on phone](assets/images/wire_frame_exercises_phone.png) ![picture of mindfulness.html mockup on phone](assets/images/wire_frame_mindfulness_phone.png)
